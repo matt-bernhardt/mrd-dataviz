@@ -29,10 +29,13 @@
  * https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html.
  */
 
+/**
+ * Custom post type function
+ */
 function custom_posttypes() {
 	$args = array(
 		'public' => true,
-		'label' => 'Data Visualizations'
+		'label' => 'Data Visualizations',
 	);
 	register_post_type( 'dataviz', $args );
 
