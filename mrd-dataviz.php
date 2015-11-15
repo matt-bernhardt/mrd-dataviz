@@ -25,7 +25,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MRD DataViz. If not, see 
+ * along with MRD DataViz. If not, see
  * https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html.
  */
 ?>
