@@ -28,4 +28,14 @@
  * along with MRD DataViz. If not, see
  * https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html.
  */
-?>
+
+function custom_posttypes() {
+	$args = array(
+		'public' => true,
+		'label' => 'Data Visualizations'
+	);
+	register_post_type( 'dataviz', $args );
+
+}
+
+add_action( 'init', 'custom_posttypes' );
