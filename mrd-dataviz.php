@@ -63,6 +63,7 @@ function custom_posttypes() {
 		'has_archive' => true,
 		'hierarchical' => false,
 		'supports' => array( 'title', 'editor', 'thumbnail' ),
+		'taxonomies' => array( 'category', 'post_tag' ),
 	);
 	register_post_type( 'dataviz', $args );
 
