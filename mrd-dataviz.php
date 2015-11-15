@@ -78,7 +78,7 @@ function custom_posttypes_flush() {
 	// Note: "add" is written with quotes, as custom post types don't get added to the database,
 	// They are only referenced in the post_type column with a post entry when you
 	// add a post of this type.
-	// (Don't get me started on Wordpress' data model)
+	// Don't get me started on Wordpress' data model.
 	custom_posttypes();
 
 	// ATTENTION: This is *only* done during plugin activation.
