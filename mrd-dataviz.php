@@ -68,7 +68,6 @@ function custom_posttypes() {
 	register_post_type( 'dataviz', $args );
 
 }
-
 add_action( 'init', 'custom_posttypes' );
 
 /**
@@ -86,5 +85,6 @@ function custom_posttypes_flush() {
 	// You should never do this on every page load.
 	flush_rewrite_rules();
 }
-
 register_activation_hook( __FILE__, 'custom_posttypes_flush' );
+
+
